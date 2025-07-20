@@ -3,10 +3,10 @@ File Name: README.md
 Owner: Andrew Holland (@SilicaStormSiam)
 Purpose: Provides an overview of the Cyberpunk Monk Persona project, including concept, chatbot functionality, setup instructions, and links to SilicaStormSiam's portfolio.
 Version Control:
+  - Version 1.9 (2025-07-20): Moved cyberpunk-bg.jpg to assets/cybermonk_background.jpg.
+  - Version 1.8 (2025-07-20): Corrected portfolio link to andrewholland.com, added cybermonk_background.jpg.
   - Version 1.7 (2025-07-20): Corrected portfolio link to andrewholland.com, added cybermonk_background.jpg.
   - Version 1.6 (2025-07-20): Added editable fields and cybermonk_background.jpg.
-  - Version 1.5 (2025-07-20): Added PMBOK Task Board, updated with cybermonk_background.jpg.
-  - Version 1.4 (2025-07-20): Added cybermonk_background.jpg for Cybermonk Vibes.
 
 # [Project Name: Cyberpunk Monk Persona]
 
