@@ -1,3 +1,12 @@
+# File Name: .gitignore
+# Owner: Andrew Holland (@SilicaStormSiam)
+# Purpose: Specifies files and directories to be ignored by Git in the CPM - Chat Bot project to prevent tracking of sensitive or temporary files.
+# Version Control:
+#   - Version 1.1 (2025-07-20): Added metadata header, ensured consistency with CPM - Chat Bot project.
+#   - Version 1.0 (2025-07-19): Initial creation of .gitignore for repository setup.
+#   - Version 0.2 (2025-07-18): Drafted initial ignore patterns during project planning.
+#   - Version 0.1 (2025-07-17): Conceptualized ignore rules for Python and sensitive files.
+
 *.pyc
 __pycache__/
 *.key

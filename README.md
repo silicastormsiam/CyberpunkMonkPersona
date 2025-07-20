@@ -1,3 +1,14 @@
+---
+File Name: README.md
+Owner: Andrew Holland (@SilicaStormSiam)
+Purpose: Provides an overview of the Cyberpunk Monk Persona project, including concept, chatbot functionality, setup instructions, and links to SilicaStormSiam's portfolio.
+Version Control:
+  - Version 1.1 (2025-07-20): Added metadata header, updated content for CPM - Chat Bot project, ensured consistency with PMBOK structure.
+  - Version 1.0 (2025-07-19): Initial creation of README with project overview and setup.
+  - Version 0.2 (2025-07-18): Drafted initial README content during project planning.
+  - Version 0.1 (2025-07-17): Conceptualized README structure for project introduction.
+---
+
 # Cyberpunk Monk Persona
 
 A digital bodhisattva blending Zen and cyberpunk, serving as a portal to SilicaStormSiam's GitHub projects via a Python chatbot.

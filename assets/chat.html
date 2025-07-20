@@ -1,0 +1,43 @@
+<!--
+File Name: chat.html
+Owner: Andrew Holland (@SilicaStormSiam)
+Purpose: Provides the HTML frontend for the Cyberpunk Monk chatbot, enabling user interaction via a web interface for the CPM - Chat Bot project.
+Version Control:
+  - Version 1.1 (2025-07-20): Added metadata header, ensured styling consistency with Cyberpunk Monk aesthetic.
+  - Version 1.0 (2025-07-19): Initial creation of HTML frontend for chatbot.
+  - Version 0.2 (2025-07-18): Drafted initial HTML structure during project planning.
+  - Version 0.1 (2025-07-17): Conceptualized web interface for chatbot.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cyberpunk Monk Chatbot</title>
+    <style>
+        body { background: #1a1a1a; color: #FF69B4; font-family: monospace; }
+        #chat { width: 600px; margin: 50px auto; }
+        input { background: #800080; color: #00FF00; padding: 10px; }
+        button { background: #FFD700; color: #1a1a1a; padding: 10px; }
+        #response { color: #FFD700; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div id="chat">
+        <h1>Cyberpunk Monk</h1>
+        <input type="text" id="message" placeholder="Ask the Monk...">
+        <button onclick="sendMessage()">Send</button>
+        <p id="response"></p>
+    </div>
+    <script>
+        async function sendMessage() {
+            const msg = document.getElementById('message').value;
+            const response = await fetch('/monk', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ message: msg })
+            });
+            const data = await response.json();
+            document.getElementById('response').innerText = data.response;
+        }
+    </script>
+</body>
+</html>

@@ -1,3 +1,14 @@
+---
+File Name: local_setup.md
+Owner: Andrew Holland (@SilicaStormSiam)
+Purpose: Provides setup instructions for running the Cyberpunk Monk Chatbot locally, including requirements and testing steps.
+Version Control:
+  - Version 1.1 (2025-07-20): Added metadata header, updated setup instructions for CPM - Chat Bot project.
+  - Version 1.0 (2025-07-19): Initial creation of setup guide for local hosting.
+  - Version 0.2 (2025-07-18): Drafted initial setup steps during project planning.
+  - Version 0.1 (2025-07-17): Conceptualized setup requirements for chatbot.
+---
+
 # Local Setup for Cyberpunk Monk Chatbot
 
 ## Requirements
