@@ -8,7 +8,7 @@ Version Control:
   - Version 1.7 (2025-07-20): Corrected portfolio link to andrewholland.com, added cybermonk_background.jpg.
   - Version 1.6 (2025-07-20): Added editable fields and cybermonk_background.jpg.
 
-# [Project Name: Cyberpunk Monk Persona]
+# Project Name: Cyberpunk Monk Persona
 
 ![Cybermonk Vibes](assets/cybermonk_background.jpg)
 
