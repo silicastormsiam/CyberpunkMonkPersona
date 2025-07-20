@@ -3,20 +3,21 @@ File Name: README.md
 Owner: Andrew Holland (@SilicaStormSiam)
 Purpose: Provides an overview of the Cyberpunk Monk Persona project, including concept, chatbot functionality, setup instructions, and links to SilicaStormSiam's portfolio.
 Version Control:
-  - Version 1.3 (2025-07-20): Updated for GitHub project board setup and description.
-  - Version 1.2 (2025-07-20): Added repository description, aligned with GitHub setup.
-  - Version 1.1 (2025-07-20): Added metadata header, updated content for CPM - Chat Bot project.
-  - Version 1.0 (2025-07-19): Initial creation of README with project overview.
----
+  - Version 1.7 (2025-07-20): Corrected portfolio link to andrewholland.com, added cybermonk_background.jpg.
+  - Version 1.6 (2025-07-20): Added editable fields and cybermonk_background.jpg.
+  - Version 1.5 (2025-07-20): Added PMBOK Task Board, updated with cybermonk_background.jpg.
+  - Version 1.4 (2025-07-20): Added cybermonk_background.jpg for Cybermonk Vibes.
 
-# Cyberpunk Monk Persona
+# [Project Name: Cyberpunk Monk Persona]
 
-A digital bodhisattva blending Zen and cyberpunk aesthetics, serving as an interactive Python-based chatbot to explore SilicaStormSiam's GitHub projects on home automation, cybersecurity, and Python tutorials.
+![Cybermonk Vibes](assets/cybermonk_background.jpg)
+
+[Project Description: A digital bodhisattva blending Zen and cyberpunk aesthetics, serving as an interactive Python-based chatbot to explore SilicaStormSiam's GitHub projects on home automation, cybersecurity, and Python tutorials.]
 
 ## Overview
-- **Concept**: A monk using neural implants, hacking for truth, and guiding users through SilicaStormSiam’s homelab, cybersecurity, and Python projects.
+- **Concept**: [A monk using neural implants, hacking for truth, and guiding users through SilicaStormSiam’s homelab, cybersecurity, and Python projects.]
 - **Chatbot**: Run `scripts/monk_bot.py` to interact locally.
-- **PMBOK**: Structured as a project in `docs/pmbok/`, tracked on the SilicaStormSiam Projects board.
+- **PMBOK**: Structured as a project in `docs/pmbok/`, tracked on the [PMBOK Task Board](https://github.com/users/silicastormsiam/projects/2).
 
 ## Setup
 See `docs/local_setup.md` for instructions.
@@ -29,4 +30,11 @@ See `docs/local_setup.md` for instructions.
 ## Links
 - GitHub: github.com/SilicaStormSiam
 - YouTube: youtube.com/@SilicaStormSiam
-- Portfolio: www.andrew-holland.com
+- Portfolio: andrewholland.com
+
+## Customization
+To adapt this README for other projects:
+- Replace `[Project Name]` with your project title.
+- Update `[Project Description]` with a brief project summary.
+- Modify `[Concept]` to describe the project’s core idea.
+- Update the background image in `assets/` to match your project’s theme.
