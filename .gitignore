@@ -14,3 +14,4 @@ __pycache__/
 venv/
 cpm_logs/
 project_log.txt
+get-pip.py
