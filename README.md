@@ -1,5 +1,6 @@
 # Project Name: Cyberpunk Monk Persona
 Project Description: A digital bodhisattva blending Zen and cyberpunk aesthetics, serving as an interactive Python-based chatbot to explore SilicaStormSiam's GitHub projects on home automation, cybersecurity, and Python tutorials.
+-
 ![Cybermonk Vibes](assets/cybermonk_background.jpg)
 ## Overview
 - **Concept**: A monk using neural implants, hacking for truth, and guiding users through SilicaStormSiam’s homelab, cybersecurity, and Python projects.
