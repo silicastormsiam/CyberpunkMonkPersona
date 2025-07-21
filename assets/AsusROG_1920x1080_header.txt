@@ -1,0 +1,5 @@
+# File Name: AsusROG_1920x1080.jpg
+# Owner: Andrew Holland (@SilicaStormSiam)
+# Purpose: Background image for the Cyberpunk Monk Chatbot interface, enhancing the cyberpunk aesthetic.
+# Version Control:
+#   - Version 1.0 (2025-07-21): Added background image to assets/ for CPM - Chat Bot project.
