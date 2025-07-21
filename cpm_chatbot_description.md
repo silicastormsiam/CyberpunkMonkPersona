@@ -1,12 +1,6 @@
 # Cyberpunk Monk - CPM Chat Bot
-## Metadata
-- **File Name**: cpm_chatbot_description.md
-- **Owner**: Andrew Holland (@SilicaStormSiam)
-- **Purpose**: Describes the Cyberpunk Monk - CPM Chat Bot, a Flask-based web application for interacting with users about SilicaStormSiam's projects, to be included in the GitHub project documentation.
-- **Version Control**:
-  - **Version 1.0 (2025-07-21)**: Initial creation of the chatbot description for the CPM - Chat Bot project.
 ## Overview
-The Cyberpunk Monk - CPM Chat Bot is a digital assistant embodying a monk with neural implants, hacking for truth, and guiding users through SilicaStormSiam’s projects in homelab, cybersecurity, and Python development.
+This document, titled README.md, is owned by Andrew Holland (@SilicaStormSiam) and provides an overview of the Cyberpunk Monk Persona project, including concept, chatbot functionality, setup instructions, and links to SilicaStormSiam's portfolio. The Cyberpunk Monk - CPM Chat Bot is a digital assistant embodying a monk with neural implants, hacking for truth, and guiding users through SilicaStormSiam’s projects in homelab, cybersecurity, and Python development.
 ## Concept
 A blend of cyberpunk aesthetics (#1B0024, #E754AA, #00BF00) and monastic discipline, this persona represents a unique identity for tech innovation by Andrew John Holland.
 ## Chatbot
