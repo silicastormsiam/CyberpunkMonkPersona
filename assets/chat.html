@@ -1,43 +1,48 @@
-<!--
-File Name: chat.html
-Owner: Andrew Holland (@SilicaStormSiam)
-Purpose: Provides the HTML frontend for the Cyberpunk Monk chatbot, enabling user interaction via a web interface for the CPM - Chat Bot project.
-Version Control:
-  - Version 1.1 (2025-07-20): Added metadata header, ensured styling consistency with Cyberpunk Monk aesthetic.
-  - Version 1.0 (2025-07-19): Initial creation of HTML frontend for chatbot.
-  - Version 0.2 (2025-07-18): Drafted initial HTML structure during project planning.
-  - Version 0.1 (2025-07-17): Conceptualized web interface for chatbot.
--->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyberpunk Monk Chatbot</title>
     <style>
-        body { background: #1a1a1a; color: #FF69B4; font-family: monospace; }
-        #chat { width: 600px; margin: 50px auto; }
-        input { background: #800080; color: #00FF00; padding: 10px; }
-        button { background: #FFD700; color: #1a1a1a; padding: 10px; }
-        #response { color: #FFD700; margin-top: 20px; }
+        body { font-family: Arial, sans-serif; background-color: #1a1a1a; color: #00ffcc; padding: 20px; }
+        #chat-container { max-width: 600px; margin: auto; }
+        #chat-output { border: 1px solid #00ffcc; padding: 10px; height: 300px; overflow-y: scroll; background-color: #2a2a2a; }
+        #chat-input { width: 80%; padding: 10px; margin-top: 10px; background-color: #333; color: #00ffcc; border: 1px solid #00ffcc; }
+        #send-button { padding: 10px; background-color: #00ffcc; color: #1a1a1a; border: none; cursor: pointer; }
     </style>
 </head>
 <body>
-    <div id="chat">
-        <h1>Cyberpunk Monk</h1>
-        <input type="text" id="message" placeholder="Ask the Monk...">
-        <button onclick="sendMessage()">Send</button>
-        <p id="response"></p>
+    <div id="chat-container">
+        <h1>Cyberpunk Monk Chatbot</h1>
+        <div id="chat-output"></div>
+        <input type="text" id="chat-input" placeholder="Ask the Cyberpunk Monk...">
+        <button id="send-button" onclick="sendMessage()">Send</button>
     </div>
     <script>
         async function sendMessage() {
-            const msg = document.getElementById('message').value;
-            const response = await fetch('/monk', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ message: msg })
-            });
-            const data = await response.json();
-            document.getElementById('response').innerText = data.response;
+            const input = document.getElementById('chat-input');
+            const output = document.getElementById('chat-output');
+            const message = input.value.trim();
+            if (!message) return;
+            output.innerHTML += `<p><strong>You:</strong> ${message}</p>`;
+            input.value = '';
+            try {
+                const response = await fetch('/monk', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: message })
+                });
+                const data = await response.json();
+                output.innerHTML += `<p><strong>Cyberpunk Monk:</strong> ${data.response}</p>`;
+                output.scrollTop = output.scrollHeight;
+            } catch (error) {
+                output.innerHTML += `<p><strong>Error:</strong> Failed to get response.</p>`;
+            }
         }
+        document.getElementById('chat-input').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') sendMessage();
+        });
     </script>
 </body>
 </html>
