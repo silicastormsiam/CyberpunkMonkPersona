@@ -15,3 +15,7 @@ venv/
 cpm_logs/
 project_log.txt
 get-pip.py
+Project_Charter.md
+Project_Scope_Statement.md
+Stakeholders_List.md
+scripts/get_projects.py
